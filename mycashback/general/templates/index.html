@@ -1,0 +1,273 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% load i18n %}
+
+<link rel="stylesheet" href="{% static 'css/other.css' %}">
+
+<section style="background-size: cover;background-image: url('{% static 'img/backgrang.jpg' %}');" class="main-inner-banner-two">
+    <div class="banner-overlay-two">
+        <img src="{% static 'overlay-two.png' %}" alt="Overlay">
+    </div>
+    <div class="banner-bgoverlay-two">
+        <img src="{% static 'images/banner-bgoverlay-two.png' %}" alt="Bg Overlay">
+    </div>
+    <div class="banner-line1-two">
+        <img src="{% static 'images/banner-line1-two.png' %}" alt="line">
+    </div>
+    <div class="banner-line2-two">
+        <img src="{% static 'images/banner-line2-two.png' %}" alt="line">
+    </div>
+    {% comment %}
+    <!-- <div class="banner-shape1-two animate-this wow fadeInLeftBig" data-wow-delay=".8s">
+        <img src="{% static 'images/banner-shape1-two.png' %}" alt="Shape">
+    </div>
+    <div class="banner-shape2-two animate-this wow fadeInUpBig" data-wow-delay=".9s">
+        <img src="{% static 'images/banner-shape2-two.png' %}" alt="Shape">
+    </div> -->
+    {% endcomment %}
+   <div class="container">
+      <div class="row align-items-center">
+         <div class="col-lg-6">
+            <div class="banner-content-two">
+               <h1 class="h1-title wow">Cashback
+            </h1>
+               <p class="wow">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt voluptatem, exercitationem officiis fugiat quis deleniti eligendi facere ab quaerat praesentium reiciendis minus voluptas corporis placeat esse quae quasi autem natus?
+               </p>
+            </div>
+         </div>
+         <div class="col-lg-6">
+            <div class="banner-img-two wow fadeInRight" data-wow-delay=".5s">
+               <img src="{% static 'img/Untitled (15).png' %}" class="banner-img-part2-two" alt="">
+               <img src="{% static 'images/banner-img-part2-two.png' %}"  alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<div style="display: flex; justify-content: center; padding: 100px; background-color: #f4f6fd;">
+    <div class="category">
+        <h1 style="color: #333282; font-weight: 900; font-size: 39px; margin-top: 10px; margin-bottom: 40px;">Kateqoriyalar üzrə məbləğləri daxil edin</h1>
+        <div class="container-44">
+            <div class="input-container">
+              <label for="input1">Market</label>
+              <input placeholder="Məgləği daxil et" type="number" id="marketInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+            <div class="input-container">
+              <label for="input2">Restoran</label>
+              <input placeholder="Məgləği daxil et" type="number" id="restoranInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+            <div class="input-container">
+              <label for="input3">Taksi</label>
+              <input placeholder="Məgləği daxil et" type="number" id="taxiInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+
+            <div class="input-container">
+              <label for="input4">Kino</label>
+              <input placeholder="Məgləği daxil et" type="number" id="kinoInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+            <div class="input-container">
+              <label for="input5">Gözəllik</label>
+              <input placeholder="Məgləği daxil et" type="number" id="gozellikInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+            <div class="input-container">
+              <label for="input6">YDM</label>
+              <input placeholder="Məgləği daxil et" type="number" id="ydmInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+
+            <div class="input-container">
+              <label for="input7">İctimai Nəqliyyat</label>
+              <input placeholder="Məgləği daxil et" type="number" id="ictimaiInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+            <div class="input-container">
+              <label for="input8">Geyim</label>
+              <input placeholder="Məgləği daxil et" type="number" id="geyimInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+            <div class="input-container">
+              <label for="input9">Elektronika Mağazsı</label>
+              <input placeholder="Məgləği daxil et" type="number" id="elektronikaInput">
+              <span class="error-message">Bu hissə boş ola bilməz</span>
+            </div>
+
+            <div class="input-container">
+                <label for="input7">Siğorta ödənişi</label>
+                <input placeholder="Məgləği daxil et" type="number" id="sigortaInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input8">Çatdırılma</label>
+                <input placeholder="Məgləği daxil et" type="number" id="catdirilmaInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input9">Aptek</label>
+                <input placeholder="Məgləği daxil et" type="number" id="aptekInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+
+              <div class="input-container">
+                <label for="input7">Klinika</label>
+                <input placeholder="Məgləği daxil et" type="number" id="klinikaInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input8">Aviabilet</label>
+                <input placeholder="Məgləği daxil et" type="number" id="aviabiletInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input9">Hotel</label>
+                <input placeholder="Məgləği daxil et" type="number" id="hotelInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+
+              <div class="input-container">
+                <label for="input7">Əyləncə</label>
+                <input placeholder="Məgləği daxil et" type="number" id="eylenceInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input8">Gül mağazası</label>
+                <input placeholder="Məgləği daxil et" type="number" id="gulmagazasiInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input9">Parfumeriya</label>
+                <input placeholder="Məgləği daxil et" type="number" id="parfumeriyaInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+
+              <div class="input-container">
+                <label for="input">Kitab və dəftərxana</label>
+                <input placeholder="Məgləği daxil et" type="number" id="kitavvedefterxanaInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input8">Oyun</label>
+                <input placeholder="Məgləği daxil et" type="number" id="oyunInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input9">Avto ehtiyyat</label>
+                <input placeholder="Məgləği daxil et" type="number" id="avtoehtiyyatInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+
+              <div class="input-container">
+                <label for="input7">Dəmir yolları</label>
+                <input placeholder="Məgləği daxil et" type="number" id="demiryollariInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input8">Online</label>
+                <input placeholder="Məgləği daxil et" type="number" id="onlineInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+              <div class="input-container">
+                <label for="input9">Ev heyvanları</label>
+                <input placeholder="Məgləği daxil et" type="number" id="evheyvanlariInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+
+              <div class="input-container">
+                <label for="input9">Digər</label>
+                <input placeholder="Məgləği daxil et" type="number" id="digerInput">
+                <span class="error-message">Bu hissə boş ola bilməz</span>
+              </div>
+
+
+          </div>
+
+    </div>
+</div>
+
+<div style="display: flex; justify-content: center; background-color: #f4f6fd;">
+    <div class="category">
+        <h1 style="color: #333282; font-weight: 900; font-size: 39px; margin-top: -50px; text-align: center;">Ödəmə üsulunu seçin</h1>
+        <div style="display: flex;align-items: center; width: 939px; justify-content: space-evenly;">
+            <button id="submitButton" type="submit" style="margin-top: 33px; width: 265px; background-color: #333282;" class="category-btn" onclick="nfcileodenis()">
+                NFC
+            </button>
+            <button id="nagdbutonu" type="submit" style="margin-top: 33px; width: 265px; background-color: #333282;" class="category-btn" onclick="nagdodenis()">
+                Nağd
+            </button>
+        </div>
+    </div>
+</div>
+
+<div id="results" style="margin-top: 20px;"></div>
+
+<div class="main-partner-logo-one wow fadeInUp" data-wow-delay=".4s">
+    <div class="container">
+        <div class="row partners-slider">
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/Leobank_logo.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/azercell.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/abb.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/kapitalbank_logo.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/rabita.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/unibank.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/xalqbank.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/bankrespublika.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+            <div class="col-lg-2" style="margin-left:50px">
+                <div class="partner-logo-box">
+                    <img src="{% static 'img/banklar/bankofbaku.png' %}" class="partner-overlay" alt="brand">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+    const marketInput = $('#marketInput');
+    const errorMessage = $('#errorMessage');
+
+    marketInput.on('blur', function() {
+      if ($(this).val() === '') {
+        $(this).val(0);
+        errorMessage.hide();
+      }
+    });
+  });
+</script>
+{% endblock %}
